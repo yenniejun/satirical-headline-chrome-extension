@@ -12,7 +12,7 @@ View a [short demo on YouTube](https://www.youtube.com/watch?v=7mnq4YiKnnc&featu
 
 ### How to run
 1. Clone this repo.
-2. Create a config file (`config.js`) and replace "<YOUR API KEY>" with your [OpenAI API key](https://platform.openai.com/account/api-keys).
+2. Create a config file (`config.js`) and replace `<YOUR API KEY>` with your [OpenAI API key](https://platform.openai.com/account/api-keys).
    ```
 const CONFIG = {
   OPENAI_API_KEY: "<YOUR API KEY>"
