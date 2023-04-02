@@ -1,5 +1,4 @@
-const OPENAI_API_KEY = "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";
-
+import CONFIG from './config.js';
 
 function makeTitleFunny(originalTitle) {
   return new Promise(async (resolve) => {
@@ -7,7 +6,7 @@ function makeTitleFunny(originalTitle) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${OPENAI_API_KEY}`,
+		Authorization: `Bearer ${CONFIG.OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
